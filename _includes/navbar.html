@@ -1,7 +1,17 @@
-<div class="navbar navbar-default">
+<div class="navbar navbar-default" role="navagation">
     <div class="navbar-header">
-        <div class="navbar-brand">
-            <a href="{{site.url}}">xegyn.github.io</a>
-        </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="{{site.baseurl}}" class="navbar-brand">xegyn.github.io</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/about.html">About</a></li>
+        </ul>
     </div>
 </div>
