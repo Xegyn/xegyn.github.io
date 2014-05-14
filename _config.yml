@@ -1,6 +1,11 @@
 
-baseurl: "/"
+# Site settings
+baseurl: ""
 url: xegyn.github.io
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 # Frontmatter defaults
 defaults:
