@@ -1,12 +1,11 @@
 ---
-title: xegyn.github.io | Home
+title: xegyn.github.io | Blog
 layout: default
 ---
 
 <div class="container">
-    <h3>Home</h3>
-    <p>
-        Hi there.
-    </p>
-
+    {% for post in site.posts %}
+        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        {{ post.excerpt }}
+    {% endfor %}
 </div>
